@@ -1,0 +1,4 @@
+---
+- name: This is used to ping the servers
+  tasks:
+  action: ping

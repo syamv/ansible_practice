@@ -1,0 +1,9 @@
+---
+#This playbook uses the win_ping module to test connectivity to Windows hosts
+- hosts: webserver
+  remote_user: vagrant
+  become: yes 
+  become_method: sudo
+#  roles:
+#    - basics
+ 

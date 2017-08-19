@@ -1,0 +1,4 @@
+---
+- name: To update the cache of the linux - update 
+  apt: name=apache2 state=latest
+#  apt: pkg=vim state=installed
